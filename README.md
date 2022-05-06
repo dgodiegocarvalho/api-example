@@ -1,7 +1,9 @@
 # api app usando mongo db e graphql
 este app foi criado em base de video aulas que podem ser reproduzidas [aqui](https://www.youtube.com/watch?v=7RoHxSGVAdU&list=PLPXWI3llyMiK9uw7tfljM2hnQl2qu6CeT)
 
-### No momento a aplicação não starta, o erro é o seguinte:
+### No momento a aplicação não starta
+Assim que eu resolver, atualizo este repo. 
+O erro é o seguinte:
 ```js
 $ npx nodemon --exec babel-node src/index.js -e js,gql
 [nodemon] 2.0.16
