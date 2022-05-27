@@ -1,8 +1,9 @@
-import { ApolloServer, PubSub } from 'apollo-server';
+import { ApolloServer } from 'apollo-server';
+import { PubSub } from 'graphql-subscriptions';
 import mongoose from 'mongoose';
 
 function startServer({ typeDefs, resolvers }){
-    mongoose.connect('mongodb://localhost:27017/graphql', {
+    mongoose.connect('mongodb://localhost:49153/graphql', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     });
